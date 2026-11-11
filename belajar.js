@@ -162,10 +162,12 @@ function BinaryFunc(a, b) {
 BinaryFunc(num3, num4);
 console.log(Space);
 
+// Ternary
+
 function ternaryFunc(c) {
     const ternary = (c == 67) ? '67!!!!!!!!!!' : 'you are not 67';
     console.log(ternary);
 }
 
-ternaryFunc(num3);
-ternaryFunc(num1);
+ternaryFunc(num3); // 45 != 67
+ternaryFunc(num1); // 67 == 67
