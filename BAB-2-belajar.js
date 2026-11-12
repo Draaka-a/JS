@@ -9,6 +9,7 @@ console.log(`Ada bagian function. \nBagian 'function' dinamakan 'Function Keywor
 // Contohnya seperti rumus matematika, dan lain lain
 // Berikut adalah contoh rumus matematika
 // Kita bakal ambil Lingkaran dan Pytagoras
+console.log('========== Rumus Luas Lingkaran ==========');
 function circleArea(r) {
     if (r % 7 === 0) {
         const Area = 22 / 7 * r ** 2;
@@ -22,3 +23,8 @@ function circleArea(r) {
 circleArea(15);
 circleArea(49);
 circleArea(20);
+
+console.log('========== Rumus Pytagoras ==========');
+function pytagoreanTheorem(s) {
+    // To be contiue
+}
