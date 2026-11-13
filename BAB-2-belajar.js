@@ -24,7 +24,23 @@ circleArea(15);
 circleArea(49);
 circleArea(20);
 
-console.log('========== Rumus Pytagoras ==========');
-function pytagoreanTheorem(s) {
-    // To be contiue
+console.log(`\n========== Rumus Pytagoras ==========`);
+function pytagoreanTheorem(a, b, c) {
+    if (a == null) {
+        let a = c**2 - b**2;
+        a = a ** 0.5;
+        console.log(`\nb = ${b} \nc = ${c} \na = ${a}`);
+    } else if (b == null) {
+        let b = c**2 - a**2;
+        b = b**0.5;
+        console.log(`\na = ${a} \nc = ${c} \nb = ${b}`);
+    } else {
+        let c = a**2 + b**2;
+        c = c**0.5;
+        console.log(`\na = ${a} \nb = ${b} \nc + ${c}`);
+    }
 }
+
+pytagoreanTheorem(null, 4, 5);
+pytagoreanTheorem(5, null, 13);
+pytagoreanTheorem(7, 24, null)
