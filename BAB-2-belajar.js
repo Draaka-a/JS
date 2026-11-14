@@ -43,4 +43,36 @@ function pytagoreanTheorem(a, b, c) {
 
 pytagoreanTheorem(null, 4, 5);
 pytagoreanTheorem(5, null, 13);
-pytagoreanTheorem(7, 24, null)
+pytagoreanTheorem(7, 24, null);
+
+// Function Expression
+// Function expression terdiri dari dua kata, yaitu "function" dan "expression". Kita sudah mengenal function, begitu juga dengan expression.
+// Lantas, function expression dapat kita artikan sebagai kode yang mengembalikan nilai function.
+console.log(`\n========== Function Expression Sekaligus Return Value ==========`);
+const squareArea = function (s) {
+    return s**2;
+}
+
+const SqAreaHasil = squareArea(57);
+console.log('Hasilnya adakah', SqAreaHasil);
+
+// Arrow Function{}
+// Beuhhh, arrow function itu sangat simple
+console.log(`\n========== Arrow Function ==========`);
+const rectangleArea = (p, l) => {
+    return p*l;
+}
+
+const rectAreaHasil = rectangleArea(23, 17);
+console.log('hasilnya adalah', rectAreaHasil);
+
+const experimentKali = rectAreaHasil * 4 / 2 ** 3;
+console.log(`\nhasilnya adalah`, experimentKali);
+
+// Ada yang lebih singkat, tapi pastinya untuk 1 hasil aja kalo yang ini
+console.log(`\n========== Versi Lebih Singkat dari Arrow Function ==========`);
+const tambahAngka = 
+    (a, b) => a + b;
+
+const hasilnya = tambahAngka(176, 321);
+console.log('Hasilnya adalah', hasilnya);
