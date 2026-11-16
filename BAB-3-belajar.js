@@ -94,5 +94,11 @@ namaPlanet.pop();
 console.log(namaPlanet);
 space();
 
-
+// DATA DENGAN MAP
+console.log("========== Data Map =========="):
+const myData = new Map ([
+    ['nama', 'Dika'],
+    ['umur', 16],
+]);
+// TO BE CONTINUED
 
