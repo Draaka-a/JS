@@ -1,8 +1,8 @@
-JavaScript Learning Archive
+# JavaScript Learning Archive
 
 Arsip Pembelajaran JavaScript | JavaScript Learning Archive
 
-🇮🇩 Tentang Repository Ini
+## 🇮🇩 Tentang Repository Ini
 
 Repository ini merupakan dokumentasi perjalanan saya dalam mempelajari JavaScript.
 
@@ -10,7 +10,7 @@ Di sini saya menyimpan materi pembelajaran, latihan, eksperimen, dan potongan ko
 
 Repository ini bukan sebuah project aplikasi, melainkan arsip pribadi untuk mencatat perkembangan, mengulang materi, dan melihat sejauh mana kemampuan saya berkembang.
 
-🇬🇧 About This Repository
+## 🇬🇧 About This Repository
 
 This repository documents my journey of learning JavaScript.
 
@@ -20,7 +20,7 @@ This is not an application project, but a personal archive to track my progress,
 
 ---
 
-📚 Materi Pembelajaran | Learning Materials
+## 📚 Materi Pembelajaran | Learning Materials
 
 - JavaScript Fundamentals
 - Variables and Data Types
@@ -29,14 +29,14 @@ This is not an application project, but a personal archive to track my progress,
 - Arrays
 - And more to come...
 
-💻 Development Environment
+## 💻 Development Environment
 
 - Language: JavaScript
 - Runtime: Node.js
 - Operating System: Linux Mint
 - Editor: Neovim
 
-🎯 Tujuan | Purpose
+## 🎯 Tujuan | Purpose
 
 ID: Mendokumentasikan setiap proses pembelajaran, termasuk kesalahan, eksperimen, dan hal-hal baru yang saya temukan.
 
