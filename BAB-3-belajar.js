@@ -64,6 +64,15 @@ console.log(`Data saat ini ${namaPlanet}`);
 console.log(namaPlanet[2]);
 space();
 
+// METHOD REVERSE DAN SORT
+namaPlanet.reverse();
+console.log(namaPlanet);
+space();
+
+namaPlanet.sort();
+console.log(namaPlanet);
+space();
+
 // MENGGUNAKAN INDEXING
 namaPlanet[1] = 'Uranus';
 console.log(namaPlanet);
@@ -94,11 +103,24 @@ namaPlanet.pop();
 console.log(namaPlanet);
 space();
 
+// ARRAY DESTRUCTURING
+console.log('=======================================================================')
+const sapa = ['halo', 'semua'];
+console.log(sapa);
+
+const [sapaan, objek] = sapa;
+console.log(sapaan);
+console.log(objek);
+space();
+
 // DATA DENGAN MAP
-console.log("========== Data Map =========="):
+console.log("========== Data Map ==========");
 const myData = new Map ([
     ['nama', 'Dika'],
     ['umur', 16],
 ]);
-// TO BE CONTINUED
+
+// METHOD SET
+myData.set('tinggi', 170);
+console.log(myData);
 
